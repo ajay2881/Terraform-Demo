@@ -12,3 +12,23 @@ variable "location" {
   default     = "West Europe"
   description = "The Azure location where all resources in this example should be created"
 }
+
+variable "subscription_id" {
+
+  type = string
+}
+
+variable "client_id" {
+
+  type = string
+}
+
+variable "client_secret" {
+
+  type = string
+}
+
+variable "tenant_id" {
+
+  type = string
+}
